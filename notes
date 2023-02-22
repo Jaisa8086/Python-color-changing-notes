@@ -1,0 +1,39 @@
+\033[text colorm
+
+Default  0
+Black    30
+Red      31
+Green    32
+Yellow   33
+Blue     34
+Purple   35
+Cyan     36
+White    37
+
+
+Example of how to use if, elif, else statements
+
+print("MY LOGIN SYSTEM")
+print("+++++++++++++++")
+username = input("Username > ")
+password = input("Password > ")
+if username == "Jamie" and password == "password1":
+  print("Why hello there\033[35m", username,"\033[37m, what lovely eyes you have, you could have charmed your way in here even without a password 😘")
+  print()
+  print("Have a beautiful day! ☀️")
+  print()
+  print("Don't forget to hydrate!")
+elif username == "Isai" and password == "somethingEasy":
+  print("Why hello there\033[35m", username,"\033[37m, what lovely eyes you have, you could have charmed your way in here even without a password 😘")
+  print()
+  print("Have a beautiful day! ☀️")
+  print()
+  print("Don't forget to hydrate!")
+elif username == "Carmen" and password == "easyPassword":
+  print("Why hello there\033[35m", username,"\033[37m, what lovely eyes you have, you could have charmed your way in here even without a password 😘")
+  print()
+  print("Have a beautiful day! ☀️")
+  print()
+  print("Don't forget to hydrate!")
+else:
+  print("Beat it, creep! 🔪💣💀🔥")
